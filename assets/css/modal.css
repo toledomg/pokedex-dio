@@ -157,7 +157,7 @@
 .modal-detail .about .stats li {
   display: flex;
 
-  /* align-items: baseline; */
+  align-items: inherit;
 
   gap: 10px;
 }
