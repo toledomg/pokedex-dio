@@ -157,7 +157,7 @@
 .modal-detail .about .stats li {
   display: flex;
 
-  align-items: inherit;
+  align-items: center;
 
   gap: 10px;
 }
@@ -175,7 +175,7 @@
   opacity: 0.8;
   background-color: #ffffff; /* Cor de fundo da barra de progresso */
   border-radius: 5px; /* Borda arredondada */
-  margin-top: 5px; /* Espaçamento superior */
+  /* margin-top: 5px; Espaçamento superior */
 
   -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.22);
   -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.22);
