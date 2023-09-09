@@ -89,8 +89,6 @@ async function openDetailModal() {
             openModal.innerHTML = '';
           }
         })
-
-
       });
     });
   });
