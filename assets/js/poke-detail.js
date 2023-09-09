@@ -93,7 +93,16 @@ const detailPokemon = (pokemon) => {
       </div>
 
       <h2>Abilities:</h2>
-      <h3>${pokemon.abilities.join(', ')}</h3>
+
+      <div class="info-abilities">
+      ${pokemon.abilities
+        .map(
+          (abilities) => `
+      <h3>${abilities} </h3>
+      `
+        )
+        .join(' ')}
+      </div>
     </div>
   </div>
 </section>

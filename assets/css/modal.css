@@ -141,6 +141,19 @@
   color: #fff;
 }
 
+.info-abilities {
+  display: flex;
+
+  gap: 1rem;
+}
+
+.info-abilities > h3 {
+  background-color: #ffffff;
+  opacity: 0.6;
+  border-radius: 1rem;
+  padding: 10px;
+}
+
 .modal-detail .details img {
   width: auto;
   height: 110px;
