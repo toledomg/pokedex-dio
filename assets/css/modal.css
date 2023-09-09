@@ -159,17 +159,17 @@
 
   align-items: center;
 
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .modal-detail .about .stats li > h2 {
-  width: 100px;
+  width: 6.25rem;
 
   color: #787b83;
 }
 
 .modal-detail .about .stats li > h3 {
-  width: 40px;
+  width: 2.5rem;
 
   color: #787b83;
 }
