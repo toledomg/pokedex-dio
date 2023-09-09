@@ -2,6 +2,7 @@
 const detailPokemon = (pokemon) => {
   return `
   <section class="poke-details ${pokemon.type}">
+  <div class="container-info">
   <header class="header">
     <span id="closeOpenDetail" class="material-symbols-outlined">
       <span class="material-symbols-outlined"> arrow_circle_left </span>
@@ -26,6 +27,7 @@ const detailPokemon = (pokemon) => {
       </div>
       <img src="${pokemon.photo}" alt="${pokemon.name}" />
     </div>
+</div>
 
     <div class="about">
       <h2>Stats</h2>
