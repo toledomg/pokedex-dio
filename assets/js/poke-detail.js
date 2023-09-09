@@ -2,17 +2,26 @@
 const detailPokemon = (pokemon) => {
   return `
   <section class="poke-details ${pokemon.type}">
+
+  
   <div class="container-info">
+  
+  <div class="background-image">
+    <img src="./assets/img/pokeball.svg" alt="pokeball-img" />
+  </div>
+
   <header class="header">
-    <span id="closeOpenDetail" class="material-symbols-outlined">
-      <span class="material-symbols-outlined"> arrow_circle_left </span>
-    </span>
+  <span id="closeOpenDetail" class="material-symbols-outlined">
+  <span class="material-symbols-outlined"> arrow_circle_left </span>
+  </span>
   </header>
+  
 
   <div class="info">
-    <h1>${pokemon.name}</h1>
-    <span>#${pokemon.number.toString().padStart(3, '0')}</span>
+  <h1>${pokemon.name}</h1>
+  <span>#${pokemon.number.toString().padStart(3, '0')}</span>
   </div>
+  
 
   <div class="poke-details">
     <div class="details">
@@ -90,7 +99,7 @@ async function openDetailModal() {
             openModal.close();
             openModal.innerHTML = '';
           }
-        })
+        });
       });
     });
   });

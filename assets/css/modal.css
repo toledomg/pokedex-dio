@@ -9,9 +9,20 @@
 
   border: none;
   border-radius: 1rem;
+
+  position: relative;
 }
 
+.background-image {
+  max-width: 280px;
 
+  opacity: 0.08;
+
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  z-index: 999999; /* Coloca a imagem atrás da seção */
+}
 
 .btnOpenDetail {
   font-size: 1rem;
@@ -22,9 +33,8 @@
 
   opacity: 0.5;
   cursor: pointer;
-  outline: none
+  outline: none;
 }
-
 
 .modal-detail section {
   width: 100%;
@@ -99,7 +109,7 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  outline: none
+  outline: none;
 }
 
 .modal-detail .details .typeDetails h3 {
@@ -116,13 +126,12 @@
 }
 
 .modal-detail .about {
-
   height: 306px;
+
+  background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.9));
 
   padding: 25px;
   list-style: none;
-
-  background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.9));
 }
 
 .modal-detail .about > h2 {
