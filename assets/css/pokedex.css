@@ -16,6 +16,7 @@
 
 .fire {
     background-color: #ee7f30;
+    color: #494848 !important;
 }
 
 .water {
@@ -24,6 +25,7 @@
 
 .electric {
     background-color: #f7cf2e;
+    color: #494848 !important;
 }
 
 .ice {
@@ -32,6 +34,7 @@
 
 .ground {
     background-color: #dfbf69;
+    color: #494848 !important;
 }
 
 .flying {
@@ -76,6 +79,7 @@
 
 .fairy {
     background-color: #f9aec7;
+    color: #494848 !important;
 }
 
 .pokemon {
@@ -134,6 +138,7 @@
     align-items: center;
     width: 100%;
     padding: 1rem;
+    
 }
 
 .pagination button {
@@ -144,6 +149,8 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+
+    outline: none
 }
 
 @media screen and (min-width: 380px) {
