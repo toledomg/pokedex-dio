@@ -46,7 +46,9 @@ const detailPokemon = (pokemon) => {
           <h2>Hp:</h2>
           <h3>${pokemon.stats['attack']}</h3>
           <div class="progress-bar">
-          <div class="progress" style="width: ${pokemon.stats['hp']}%"></div>
+          <div class="progress" style="width: ${
+            pokemon.stats['attack']
+          }%"></div>
         </div>
         </li>
         <li>
@@ -54,7 +56,7 @@ const detailPokemon = (pokemon) => {
           <h3>${pokemon.stats['attack']}</h3>
           <div class="progress-bar">
           <div class="progress-other" style="width: ${
-            pokemon.stats['hp']
+            pokemon.stats['attack']
           }%"></div>
         </li>
 
@@ -62,28 +64,32 @@ const detailPokemon = (pokemon) => {
           <h2>Defense:</h2>
           <h3>${pokemon.stats['defense']}</h3>
           <div class="progress-bar">
-          <div class="progress" style="width: ${pokemon.stats['hp']}%"></div>
+          <div class="progress" style="width: ${
+            pokemon.stats['defense']
+          }%"></div>
         </li>
         <li>
           <h2>Sp.Atk:</h2>
           <h3>${pokemon.stats['special-attack']}</h3>
           <div class="progress-bar">
           <div class="progress-other" style="width: ${
-            pokemon.stats['hp']
+            pokemon.stats['special-attack']
           }%"></div>
         </li>
         <li>
           <h2>Sp.Def:</h2>
           <h3>${pokemon.stats['special-defense']}</h3>
           <div class="progress-bar">
-          <div class="progress" style="width: ${pokemon.stats['hp']}%"></div>
+          <div class="progress" style="width: ${
+            pokemon.stats['special-defense']
+          }%"></div>
         </li>
         <li>
           <h2>Speed:</h2>
           <h3>${pokemon.stats['speed']}</h3>
           <div class="progress-bar">
           <div class="progress-other" style="width: ${
-            pokemon.stats['hp']
+            pokemon.stats['speed']
           }%"></div>
         </li>
       </div>
