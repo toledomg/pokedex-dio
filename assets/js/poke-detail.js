@@ -100,10 +100,10 @@ const detailPokemon = (pokemon) => {
   `;
 };
 //
+
 async function openDetailModal() {
   const openModal = document.getElementById('openDetail');
   const buttons = document.querySelectorAll('.btnOpenDetail');
-
   buttons.forEach((button) => {
     button.addEventListener('click', (event) => {
       event.preventDefault();
