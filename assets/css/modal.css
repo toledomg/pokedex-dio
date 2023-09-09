@@ -6,6 +6,8 @@
   display: flex;
   align-items: center;
 
+  outline: none;
+
   border: none;
   border-radius: 1rem;
 }
@@ -19,7 +21,9 @@
 
   opacity: 0.5;
   cursor: pointer;
+  outline: none
 }
+
 
 .modal-detail section {
   width: 100%;
@@ -92,7 +96,7 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
-
+  outline: none
 }
 
 .modal-detail .details .typeDetails h3 {
