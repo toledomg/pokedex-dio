@@ -14,9 +14,13 @@
 }
 
 .background-image {
+  /* pokeball image */
+
   max-width: 280px;
 
-  opacity: 0.08;
+  opacity: 0.1;
+
+  color: #ffffff;
 
   position: absolute;
   top: 60px;
