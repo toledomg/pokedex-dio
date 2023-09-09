@@ -44,11 +44,9 @@ const detailPokemon = (pokemon) => {
       <div class="stats">
         <li>
           <h2>Hp:</h2>
-          <h3>${pokemon.stats['attack']}</h3>
+          <h3>${pokemon.stats['hp']}</h3>
           <div class="progress-bar">
-          <div class="progress" style="width: ${
-            pokemon.stats['attack']
-          }%"></div>
+          <div class="progress " style="width: ${pokemon.stats['hp']}%"></div>
         </div>
         </li>
         <li>
