@@ -100,6 +100,12 @@ async function openDetailModal() {
             openModal.innerHTML = '';
           }
         });
+        document.addEventListener('click', (event) => {
+          if (event.target === openModal) {
+            openModal.close();
+            openModal.innerHTML = '';
+          }
+        });
       });
     });
   });
