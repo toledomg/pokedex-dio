@@ -71,9 +71,9 @@
 
 .modal-detail .info span {
   color: #000;
-  opacity: 0.3;
   text-align: right;
   font-size: 1rem;
+  opacity: 0.3;
 }
 
 .modal-detail .details {
@@ -83,22 +83,28 @@
   padding: 30px;
 }
 
+.modal-detail .typeDetails {
+  filter: brightness(1.1);
+}
+
 .modal-detail .details .typeDetails {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   gap: 10px;
+
 }
 
 .modal-detail .details .typeDetails h3 {
   font-size: 0.825rem;
   border-radius: 20px;
-  padding: 5px;
+  padding: 5px 10px;
+
+  color: #fff;
 }
 
 .modal-detail .details img {
-  width: zuto;
+  width: auto;
   height: 110px;
 }
 
