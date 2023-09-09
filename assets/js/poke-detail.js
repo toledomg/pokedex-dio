@@ -82,6 +82,15 @@ async function openDetailModal() {
         openModal.innerHTML = newDetailHtml;
 
         closeModalDetailPokemon();
+
+        document.addEventListener('keydown', (event) => {
+          if (event.key === 'Escape' || event.key === 'Esc') {
+            openModal.close();
+            openModal.innerHTML = '';
+          }
+        })
+
+
       });
     });
   });
