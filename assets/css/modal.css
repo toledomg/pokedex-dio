@@ -25,7 +25,7 @@
 
   position: absolute;
 
-  top: -19px;
+  top: -10px;
   right: -47px;
 
   z-index: 999999;
@@ -100,6 +100,10 @@
 
   margin: 0 auto;
   padding: 0px 10px 0px 10px;
+}
+
+.modal-detail .info .info-number {
+  rotate: 10deg;
 }
 
 .modal-detail .info h1 {
