@@ -57,6 +57,10 @@
   outline: none;
 }
 
+.modal-detail .container-info {
+  height: 600px;
+}
+
 .modal-detail section {
   width: 100%;
   height: 100%;
@@ -162,7 +166,7 @@
 }
 
 .modal-detail .about {
-  height: 306px;
+  height: 340px;
 
   background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.9));
 
