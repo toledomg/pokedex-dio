@@ -14,6 +14,10 @@
   overflow: hidden;
 }
 
+.modal-detail::backdrop {
+  background: rgba(0, 0, 0, 0.7);
+}
+
 .background-image {
   /* pokeball image */
 
