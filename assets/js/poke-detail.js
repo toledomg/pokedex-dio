@@ -39,7 +39,8 @@ const detailPokemon = (pokemon) => {
 </div>
 
     <div class="about">
-    <div></div>
+
+
       <h2>Base Stats</h2>
       <div class="stats">
         <li>
